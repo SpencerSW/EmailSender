@@ -1,0 +1,30 @@
+{
+  "name": "emailsender",
+  "version": "1.0.0",
+  "description": "initializer",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "open": "open http://localhost:1234",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpencerSW/EmailSender.git"
+  },
+  "author": "Spencer McLaughlin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpencerSW/EmailSender/issues"
+  },
+  "homepage": "https://github.com/SpencerSW/EmailSender#readme",
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "yarn": "^1.22.22"
+  }
+}
